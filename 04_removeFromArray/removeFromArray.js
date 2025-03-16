@@ -1,3 +1,10 @@
+/**
+ * Removes all occurrences of the specified values from the given array.
+ *
+ * @param {Array} list - The array from which values will be removed.
+ * @param {...*} rest - The values to be removed from the array.
+ * @returns {Array} The modified array with the specified values removed.
+ */
 const removeFromArray = function (list, ...rest) {
   let removingValue = rest;
   index = 0;
